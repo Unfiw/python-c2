@@ -27,7 +27,8 @@ The server component that receives connections and sends commands to backdoor cl
 -   Email reporting via SMTP
 -   Simple interactive interface
 
-> [!IMPORTANT] Configure your email credentials in `listener.py` before use. Replace placeholder values with your actual Gmail app password.
+> [!IMPORTANT] 
+> Configure your email credentials in `listener.py` before use. Replace placeholder values with your actual Gmail app password.
 
 ----------
 
@@ -41,7 +42,8 @@ pip install termcolor
 
 ### Configuration
 
-> [!NOTE] Edit the following files before deployment:
+> [!NOTE]
+> Edit the following files before deployment:
 
 **listener.py:**
 
@@ -87,14 +89,16 @@ python backdoor.py
 
 ## Security Notes
 
-> [!CAUTION] **Detection Risks:**
+> [!CAUTION] 
+> **Detection Risks:**
 > 
 > -   Plain text network communication
 > -   No encryption or obfuscation
 > -   Static network signatures
 > -   Predictable behavior patterns
 
-> [!WARNING] **Legal Requirements:**
+> [!WARNING] 
+> **Legal Requirements:**
 > 
 > -   Only use on systems you own or have written authorization to test
 > -   Ensure compliance with local laws and regulations
@@ -139,7 +143,8 @@ python backdoor.py
 
 ## Disclaimer
 
-> [!CAUTION] Users are solely responsible for ensuring lawful use of this software. The authors assume no liability for misuse or damages resulting from unauthorized deployment.
+> [!CAUTION] 
+> Users are solely responsible for ensuring lawful use of this software. The authors assume no liability for misuse or damages resulting from unauthorized deployment.
 
 ## Author
 
